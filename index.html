@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="main">
+
+        <div class="left">
+            <div class="profile">
+                <div>
+                    <img src="1.jpg.jpg" alt="">
+                </div>
+                <h1>Rajesh G</h1>
+            </div>
+
+            <div class="contactinfo">
+                <h2>Contact</h2>
+                <ul>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span><p>+91 8660688962</p></span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span><p>emptybrain1998@gmail.com</p></span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><p>No 4158/23/1, 9th Cross, B Block, Subramanyanagar, Bangalore 560021</p></span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="contactinfo education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <p>Degree</p>
+                        <strong>Bacholer of Computer Application</strong>
+                        <p>2016 - 2019</p>
+                        <p>Swami Vivekananda Institute of Management</p>
+                        <strong><p>66%</p></strong>
+                    </li>
+                    <li>
+                        <p>College</p>
+                        <strong>PUC (PCME)</strong>
+                        <p>2014 - 2016</p>
+                        <p>Swami Vivekananda Pre University</p>
+                        <strong><p>54%</p></strong>
+                    </li>
+                    <li>
+                        <p>School</p>
+                        <strong>SSLC</strong>
+                        <p>2014</p>
+                        <p>Swami Vivekananda Secondary High School</p>
+                        <strong><p>51%</p></strong>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="about">
+                <h1>About</h1><br>
+                <h2>Hello, I am Rajesh G</h2>
+                <p>Graduate from the University of Bangalore seeking an entry-level position as an Web Developer. To work for an organization which provides me the opportunity to improve my skills and knowledge and to grow along with the organization.</p>
+            </div>
+
+            <div class="skills">
+                <h1>Skills</h1>
+
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="per">
+                        <div style="width:90%">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS3</p>
+                    <div class="per">
+                        <div style="width:80%">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="per">
+                        <div style="width:60%">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Bootstrap</p>
+                    <div class="per">
+                        <div style="width:70%">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Materialize CSS</p>
+                    <div class="per">
+                        <div style="width:75%">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="per">
+                        <div style="width:70%">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Django (Framework)</p>
+                    <div class="per">
+                        <div style="width:80%">70%</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="language">
+
+                <h1>Language</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Speak</th>
+                            <th>Read</th>
+                            <th>Write</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>English</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Tamil</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Kannada</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Telugu</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-times"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr style="margin-top:30px;">
+
+            <div class="experience">
+                <p>I hereby declare that the above mentioned information is true to the best of my knowledge.</p>
+            </div>
+
+            <div class="dates">
+                <p>Place : Bangaluru</p>
+                <p id="todaydate"></p>
+            </div>
+
+        </div>
+        <script>
+            months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+            const d = new Date();
+            var date = d.getDate();
+            var mon = d.getMonth();
+            var year = d.getFullYear();
+            document.getElementById('todaydate').innerHTML = "Date: "+date+'/'+months[d.getMonth()]+'/'+year;
+        </script>
+    </div>
+</body>
+</html>
